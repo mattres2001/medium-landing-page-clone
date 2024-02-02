@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Landing Page Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="header">
+        <svg class="medium-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+            <!-- Include your path data here -->
+            <path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path>
+        </svg>
+        <form class="search-bar">
+            <i class="bi bi-search" width="24" height="24"></i>
+            <input type="search" placeholder="Search">
+        </form>
+        
+        <div class="post-button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-label="Write"><path d="M14 4a.5.5 0 0 0 0-1v1zm7 6a.5.5 0 0 0-1 0h1zm-7-7H4v1h10V3zM3 4v16h1V4H3zm1 17h16v-1H4v1zm17-1V10h-1v10h1zm-1 1a1 1 0 0 0 1-1h-1v1zM3 20a1 1 0 0 0 1 1v-1H3zM4 3a1 1 0 0 0-1 1h1V3z" fill="gray"></path><path d="M17.5 4.5l-8.46 8.46a.25.25 0 0 0-.06.1l-.82 2.47c-.07.2.12.38.31.31l2.47-.82a.25.25 0 0 0 .1-.06L19.5 6.5m-2-2l2.32-2.32c.1-.1.26-.1.36 0l1.64 1.64c.1.1.1.26 0 .36L19.5 6.5m-2-2l2 2" stroke="gray"></path></svg>
+            <p>Write</p>
+        </div>
+
+        <i class="bi bi-bell"></i>
+        <img src="https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png">
+    </div>
+
+    <div class="content">
+        <div class="content-body">
+            <div class="post-col">
+                <div class="post-genre-row">
+                    <button>
+                        <svg width="19" height="19">
+                            <path d="M9 9H3v1h6v6h1v-6h6V9h-6V3H9v6z" fill-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <button>For you</button>
+                    <button>Following</button>
+                    <button>Relationships</button>
+                    <button>Self Improvement</button>
+                    <button>Programming</button>
+
+                </div>
+                <div class="post-row">
+                    <div class="post">
+                        <div class="post-user">
+                            <img src="https://miro.medium.com/v2/resize:fill:24:24/1*sHhtYhaCe2Uc3IU0IgKwIQ.png">
+                            <p>Medium Staff <span>in</span> The Medium Blog <span>· Sep 1, 2023</span></p>
+                        </div>
+                        <div class="post-body">
+                            <div class="post-content">
+                                <div class="post-text">
+                                    <h3>What We're Reading: What makes you happy?</h3>
+                                    <p>Hi everybody, As I enjoy the last dregs of summer in Chicago, I bask in the nearly-perfect pre-winter weather, the joy in returning my kids to school, and the mouth-watering vegetables that are finally ready to...</p>
+                                </div>
+                                <div class="post-bar">
+                                    <button class="post-tag">What Were Reading</button>
+                                    <p>5 min read · From your network</p>
+                                    <div class="post-bar-tools">
+                                        <button style="padding: 8px 8px;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M17.5 1.25a.5.5 0 0 1 1 0v2.5H21a.5.5 0 0 1 0 1h-2.5v2.5a.5.5 0 0 1-1 0v-2.5H15a.5.5 0 0 1 0-1h2.5v-2.5zm-11 4.5a1 1 0 0 1 1-1H11a.5.5 0 0 0 0-1H7.5a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V5.75z" fill="#6B6B6B"></path>
+                                            </svg>    
+                                        </button>
+                                        <button style="padding: 8px 8px;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM8.25 12h7.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </button>
+                                        <button style="padding: 8px 2px;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.39 12c0 .55.2 1.02.59 1.41.39.4.86.59 1.4.59.56 0 1.03-.2 1.42-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.6-1.41A1.93 1.93 0 0 0 6.4 10c-.55 0-1.02.2-1.41.59-.4.39-.6.86-.6 1.41zM10 12c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.54 0 1.02-.2 1.4-.59.4-.39.6-.86.6-1.41 0-.55-.2-1.02-.6-1.41a1.93 1.93 0 0 0-1.4-.59c-.55 0-1.04.2-1.42.59-.4.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.57 1.41.4.4.88.59 1.43.59.57 0 1.04-.2 1.43-.59.39-.39.57-.86.57-1.41 0-.55-.2-1.02-.57-1.41A1.93 1.93 0 0 0 17.6 10c-.55 0-1.04.2-1.43.59-.38.39-.57.86-.57 1.41z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-img">
+                                <img src="https://miro.medium.com/v2/resize:fill:112:112/g:fp:0.22:0.84/1*9S0dkzC9pfBfDb1IOkILzQ.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-user">
+                            <img src="https://miro.medium.com/v2/resize:fill:24:24/1*3hJbUvj8rKukWdx_sGO5Xw.png">
+                            <p>John Clark - The Voice of Courage <span>in</span> Psych Times <span>· Jan 23</span></p>
+                        </div>
+                        <div class="post-body">
+                            <div class="post-content">
+                                <div class="post-text">
+                                    <h3>You Are More Than Anyone’s Experience of You</h3>
+                                    <p>Confirming and celebrating your self-worth — His friends and teachers saw him as an incorrigible pain in the kazoo. And for good reason. Kevin was different, very different. I was Kevin’s teacher during his...</p>
+                                </div>
+                                <div class="post-bar">
+                                    <button class="post-tag">Self-Worth</button>
+                                    <p>6 min read</p>
+                                    <div class="post-bar-tools">
+                                        <button style="padding: 8px 8px;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M17.5 1.25a.5.5 0 0 1 1 0v2.5H21a.5.5 0 0 1 0 1h-2.5v2.5a.5.5 0 0 1-1 0v-2.5H15a.5.5 0 0 1 0-1h2.5v-2.5zm-11 4.5a1 1 0 0 1 1-1H11a.5.5 0 0 0 0-1H7.5a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V5.75z" fill="#6B6B6B"></path>
+                                            </svg>    
+                                        </button>
+                                        <button style="padding: 8px 8px;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM8.25 12h7.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </button>
+                                        <button style="padding: 8px 2px;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.39 12c0 .55.2 1.02.59 1.41.39.4.86.59 1.4.59.56 0 1.03-.2 1.42-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.6-1.41A1.93 1.93 0 0 0 6.4 10c-.55 0-1.02.2-1.41.59-.4.39-.6.86-.6 1.41zM10 12c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.54 0 1.02-.2 1.4-.59.4-.39.6-.86.6-1.41 0-.55-.2-1.02-.6-1.41a1.93 1.93 0 0 0-1.4-.59c-.55 0-1.04.2-1.42.59-.4.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.57 1.41.4.4.88.59 1.43.59.57 0 1.04-.2 1.43-.59.39-.39.57-.86.57-1.41 0-.55-.2-1.02-.57-1.41A1.93 1.93 0 0 0 17.6 10c-.55 0-1.04.2-1.43.59-.38.39-.57.86-.57 1.41z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-img">
+                                <img src="https://miro.medium.com/v2/da:true/resize:fill:112:112/0*oCL1dEz5U9VJwlsN">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-user">
+                            <img src="https://miro.medium.com/v2/resize:fill:24:24/1*s0-cdAECbdAc9067P3_BLA.png">
+                            <p>Samuele <span>· Dec 8, 2023</span></p>
+                        </div>
+                        <div class="post-body">
+                            <div class="post-content">
+                                <div class="post-text">
+                                    <h3>Achieving 100% Child Div Height Without Specifying Parent’s</h3>
+                                    <p>Flexbox Techniques for Responsive Height in Nested Divs — A brief note to remind my future self how to use CSS to make an element...</p>
+                                </div>
+                                <div class="post-bar">
+                                    <button class="post-tag">CSS</button>
+                                    <p>2 min read · Because you follow Coding</p>
+                                    <div class="post-bar-tools">
+                                        <button style="padding: 8px 8px;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M17.5 1.25a.5.5 0 0 1 1 0v2.5H21a.5.5 0 0 1 0 1h-2.5v2.5a.5.5 0 0 1-1 0v-2.5H15a.5.5 0 0 1 0-1h2.5v-2.5zm-11 4.5a1 1 0 0 1 1-1H11a.5.5 0 0 0 0-1H7.5a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V5.75z" fill="#6B6B6B"></path>
+                                            </svg>    
+                                        </button>
+                                        <button style="padding: 8px 8px;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM8.25 12h7.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </button>
+                                        <button style="padding: 8px 2px;">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.39 12c0 .55.2 1.02.59 1.41.39.4.86.59 1.4.59.56 0 1.03-.2 1.42-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.6-1.41A1.93 1.93 0 0 0 6.4 10c-.55 0-1.02.2-1.41.59-.4.39-.6.86-.6 1.41zM10 12c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.54 0 1.02-.2 1.4-.59.4-.39.6-.86.6-1.41 0-.55-.2-1.02-.6-1.41a1.93 1.93 0 0 0-1.4-.59c-.55 0-1.04.2-1.42.59-.4.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.57 1.41.4.4.88.59 1.43.59.57 0 1.04-.2 1.43-.59.39-.39.57-.86.57-1.41 0-.55-.2-1.02-.57-1.41A1.93 1.93 0 0 0 17.6 10c-.55 0-1.04.2-1.43.59-.38.39-.57.86-.57 1.41z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-img">
+                                <img src="https://miro.medium.com/v2/resize:fill:112:112/1*Lm2QY9RZBtWo-EhvvSRgCA.jpeg">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        
+            <div class="side-bar">
+                <div class="link-col">
+                    <div class="staff-picks-row">
+                        <h3>Staff Picks</h3>
+        
+                        <div class="staff-picks-post">
+                            <div class="staff-picks-post-user">
+                                <a href="/#">
+                                    <img  src="https://miro.medium.com/v2/resize:fill:20:20/1*ha3B1Nxgg-0KUlH1sN68zw.jpeg">
+                                    <p>Ida Persson <span>in</span> UX Collective</p>
+                                </a>
+                            </div>
+                            <h3>If you want to be creative, you can't be certain</h3>
+                        </div>
+        
+                        <div class="staff-picks-post">
+                            <div class="staff-picks-post-user">
+                                <a href="/##">
+                                    <img  src="https://miro.medium.com/v2/resize:fill:20:20/1*rhEr5L86DMjUkXLELFPp1A.jpeg">
+                                    <p>Jack Shepherd <span>in</span> Cellar Door</p>
+                                </a>
+                            </div>
+                            <h3>The Astonishing Origins of 6 Common Compound Words</h3>
+                        </div>
+        
+                        <div class="staff-picks-post">
+                            <div class="staff-picks-post-user">
+                                <a href="/###">
+                                    <img  src="https://miro.medium.com/v2/resize:fill:20:20/1*UmlZGQsNhuv9kgQL6pFslA.gif">
+                                    <p>Sheila Teo <span>in</span> Towards Data Science</p>
+                                </a>
+                            </div>
+                            <h3>How I Won Signapore's GPT-4 Prompt Engineering Competition</h3>
+                        </div>
+        
+                        <a href="#">See the full list</a>
+        
+                    </div>
+                    <div class="discover-row">
+                        <div class="dicover-logo-row">
+                            <div class="discover-logo">
+                                <svg class="medium-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+                                    <path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path>
+                                </svg>
+        
+                                <svg class="plus-sign" width="19" height="19">
+                                    <path d="M9 9H3v1h6v6h1v-6h6V9h-6V3H9v6z" fill-rule="evenodd"></path>
+                                </svg>
+        
+                                <svg class="twitter-logo" width="29" height="29">
+                                    <path d="M22.05 7.54a4.47 4.47 0 0 0-3.3-1.46 4.53 4.53 0 0 0-4.53 4.53c0 .35.04.7.08 1.05A12.9 12.9 0 0 1 5 6.89a5.1 5.1 0 0 0-.65 2.26c.03 1.6.83 2.99 2.02 3.79a4.3 4.3 0 0 1-2.02-.57v.08a4.55 4.55 0 0 0 3.63 4.44c-.4.08-.8.13-1.21.16l-.81-.08a4.54 4.54 0 0 0 4.2 3.15 9.56 9.56 0 0 1-5.66 1.94l-1.05-.08c2 1.27 4.38 2.02 6.94 2.02 8.3 0 12.86-6.9 12.84-12.85.02-.24 0-.43 0-.65a8.68 8.68 0 0 0 2.26-2.34c-.82.38-1.7.62-2.6.72a4.37 4.37 0 0 0 1.95-2.51c-.84.53-1.81.9-2.83 1.13z" fill="rgb(56,161,243)"></path>
+                                </svg>    
+                            </div>
+                        </div>
+                            
+                        
+    
+                        <h2>Discover Medium writers you already follow on Twitter.</h2>
+    
+                        
+    
+                        <button>
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M19.1 8.03c.02.17.02.34.02.5 0 5.24-3.69 11.28-10.43 11.28-2 0-3.94-.62-5.62-1.78a6.9 6.9 0 0 0 5.43-1.64 3.72 3.72 0 0 1-3.43-2.75c.55.11 1.12.09 1.66-.07a3.9 3.9 0 0 1-2.94-3.88v-.05c.5.3 1.08.47 1.66.5a4.16 4.16 0 0 1-1.13-5.3 10.16 10.16 0 0 0 7.55 4.14c-.3-1.37.1-2.82 1.06-3.78a3.48 3.48 0 0 1 5.19.17c.82-.18 1.6-.5 2.32-.96-.27.91-.84 1.7-1.6 2.19.72-.1 1.43-.3 2.1-.63a7.8 7.8 0 0 1-1.83 2.06z" fill="#1D9BF0"></path>
+                                </svg>
+                            </span>
+                            Connect to Twitter
+                        </button>
+    
+                        
+    
+                        <a href="#">Maybe Later</a>
+    
+    
+                    </div>
+                    <div class="recommended-row">
+                        <h3>Recommended topics</h3>
+    
+                        <button>Life</button>
+                        <button>Technology</button>
+                        <button>Health</button>
+                        <button>Psychology</button>
+                        <button>Python</button>
+                        <button>Coding</button>
+                        <button>Life Lessons</button>
+    
+                        <a href="#">See more topics</a>
+                    </div>
+                    <div class="follow-row">
+                        <h3>Who to follow</h3>
+    
+                        <div class="follow-user">
+                            <img src="https://miro.medium.com/v2/resize:fill:32:32/1*DI-giaHOh49jZxZ8k7x6dA@2x.jpeg">
+                            <div class="follow-user-info">
+                                <h3>Alexandru Lazar</h3>
+                                <p>The place to follow if you want to level up your life!...</p>
+                            </div>
+                            <div class="follow-user-button">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+    
+                        <div class="follow-user">
+                            <img src="https://miro.medium.com/v2/resize:fill:32:32/1*TnUGeqxmZcu3R4X9nxjiLw.jpeg">
+                            <div class="follow-user-info">
+                                <h3>Harsh Darji</h3>
+                                <p>Writer | On a mission to help you heal and expand your...</p>
+                            </div>
+                            <div class="follow-user-button">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+    
+                        <div class="follow-user">
+                            <img src="https://miro.medium.com/v2/resize:fill:32:32/1*k3GDSD7MLzd9t0OzpC8Slw.jpeg">
+                            <div class="follow-user-info">
+                                <h3>smoul</h3>
+                                <p>3X Top Writer | Writing about audience building,...</p>
+                            </div>
+                            <div class="follow-user-button">
+                                <button>Follow</button>
+                            </div>
+                        </div>
+    
+                        <a href="#">See more suggestions</a>
+                    </div>
+                    <div class="staff-picks-row">
+                        <h3 style="margin-top: 40px;">Recently Saved</h3>
+    
+                        <div class="staff-picks-post">
+                            <div class="staff-picks-post-user">
+                                <a href="/#">
+                                    <img  src="https://miro.medium.com/v2/resize:fill:20:20/1*c_2w6a-GqcYDbmJFO8Frgw.png">
+                                    <p>Havard Mela <span>in</span> Better Humans</p>
+                                </a>
+                            </div>
+                            <h3 style="padding-bottom: 0; margin-bottom: 8px;">6 Reasons to Quit Porn for Good</h3>
+                            <div class="staff-picks-post-time-stamp">
+                                <p>Jul 10, 2023 · 8 min read</p>
+                                <svg width="16" height="16" viewBox="0 0 64 64" fill="none" style="padding-left: 4px;">
+                                    <path d="M39.64 40.83L33.87 56.7a1.99 1.99 0 0 1-3.74 0l-5.77-15.87a2.02 2.02 0 0 0-1.2-1.2L7.3 33.88a1.99 1.99 0 0 1 0-3.74l15.87-5.77a2.02 2.02 0 0 0 1.2-1.2L30.12 7.3a1.99 1.99 0 0 1 3.74 0l5.77 15.87a2.02 2.02 0 0 0 1.2 1.2l15.86 5.76a1.99 1.99 0 0 1 0 3.74l-15.87 5.77a2.02 2.02 0 0 0-1.2 1.2z" fill="#FFC017"></path>
+                                </svg>
+                            </div>
+                        </div>
+    
+                        <div class="staff-picks-post">
+                            <div class="staff-picks-post-user">
+                                <a href="/#">
+                                    <img  src="https://miro.medium.com/v2/resize:fill:20:20/1*Hj6vUEMxO2xHhofeVl7iWA.png">
+                                    <p>Moreno Zugaro <span>in</span> Publishous</p>
+                                </a>
+                            </div>
+                            <h3 style="padding-bottom: 0; margin-bottom: 8px;">4 Lessons Almost Every Man Has To Unlearn At One Point In His Life</h3>
+                            <div class="staff-picks-post-time-stamp">
+                                <p>Apr 2, 2023 · 5 min read</p>
+                                <svg width="16" height="16" viewBox="0 0 64 64" fill="none" style="padding-left: 4px;">
+                                    <path d="M39.64 40.83L33.87 56.7a1.99 1.99 0 0 1-3.74 0l-5.77-15.87a2.02 2.02 0 0 0-1.2-1.2L7.3 33.88a1.99 1.99 0 0 1 0-3.74l15.87-5.77a2.02 2.02 0 0 0 1.2-1.2L30.12 7.3a1.99 1.99 0 0 1 3.74 0l5.77 15.87a2.02 2.02 0 0 0 1.2 1.2l15.86 5.76a1.99 1.99 0 0 1 0 3.74l-15.87 5.77a2.02 2.02 0 0 0-1.2 1.2z" fill="#FFC017"></path>
+                                </svg>
+                            </div>
+                        </div>
+    
+                        <div class="staff-picks-post">
+                            <div class="staff-picks-post-user">
+                                <a href="/#">
+                                    <img  src="https://miro.medium.com/v2/resize:fill:20:20/1*a4Gg5BJIsBGvy9HJVdBb1A.jpeg">
+                                    <p>Sarah Stroh</p>
+                                </a>
+                            </div>
+                            <h3 style="padding-bottom: 0; margin-bottom: 8px;">What Jonah Hill should have said instead</h3>
+                            <div class="staff-picks-post-time-stamp">
+                                <p>Jul 12, 2023 · 5 min read</p>
+                                <svg width="16" height="16" viewBox="0 0 64 64" fill="none" style="padding-left: 4px;">
+                                    <path d="M39.64 40.83L33.87 56.7a1.99 1.99 0 0 1-3.74 0l-5.77-15.87a2.02 2.02 0 0 0-1.2-1.2L7.3 33.88a1.99 1.99 0 0 1 0-3.74l15.87-5.77a2.02 2.02 0 0 0 1.2-1.2L30.12 7.3a1.99 1.99 0 0 1 3.74 0l5.77 15.87a2.02 2.02 0 0 0 1.2 1.2l15.86 5.76a1.99 1.99 0 0 1 0 3.74l-15.87 5.77a2.02 2.02 0 0 0-1.2 1.2z" fill="#FFC017"></path>
+                                </svg>
+                            </div>
+                        </div>
+    
+                        <div class="staff-picks-post">
+                            <div class="staff-picks-post-user">
+                                <a href="/#">
+                                    <img  src="https://miro.medium.com/v2/resize:fill:20:20/1*Hj6vUEMxO2xHhofeVl7iWA.png">
+                                    <p>Moreno Zugaro <span>in</span> Publishous</p>
+                                </a>
+                            </div>
+                            <h3 style="padding-bottom: 0; margin-bottom: 8px;">7 Stupid Ways Most Men Mess Up Their Lives</h3>
+                            <div class="staff-picks-post-time-stamp">
+                                <p>May 1, 2023 · 8 min read</p>
+                                <svg width="16" height="16" viewBox="0 0 64 64" fill="none" style="padding-left: 4px;">
+                                    <path d="M39.64 40.83L33.87 56.7a1.99 1.99 0 0 1-3.74 0l-5.77-15.87a2.02 2.02 0 0 0-1.2-1.2L7.3 33.88a1.99 1.99 0 0 1 0-3.74l15.87-5.77a2.02 2.02 0 0 0 1.2-1.2L30.12 7.3a1.99 1.99 0 0 1 3.74 0l5.77 15.87a2.02 2.02 0 0 0 1.2 1.2l15.86 5.76a1.99 1.99 0 0 1 0 3.74l-15.87 5.77a2.02 2.02 0 0 0-1.2 1.2z" fill="#FFC017"></path>
+                                </svg>
+                            </div>
+                        </div>
+    
+                        <a href="#">See all (7)</a>
+                    </div>
+                    <div class="link-col-footer">
+                        <div class="link-col-footer-row">
+                            <a href="#">Help</a>
+                            <a href="#">Status</a>
+                            <a href="#">About</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms</a>
+                        </div>
+                        <div class="link-col-footer-row">
+                            <a href="#">Text to speech</a>
+                            <a href="#">Teams</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        
+
+
+
+</body>
+</html>
